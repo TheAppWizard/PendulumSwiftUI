@@ -1,0 +1,593 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 56;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		FA4EEE0F2C65C31B00C35C1D /* PendulumSwiftUIApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = FA4EEE0E2C65C31B00C35C1D /* PendulumSwiftUIApp.swift */; };
+		FA4EEE112C65C31B00C35C1D /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = FA4EEE102C65C31B00C35C1D /* ContentView.swift */; };
+		FA4EEE132C65C31D00C35C1D /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = FA4EEE122C65C31D00C35C1D /* Assets.xcassets */; };
+		FA4EEE162C65C31D00C35C1D /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = FA4EEE152C65C31D00C35C1D /* Preview Assets.xcassets */; };
+		FA4EEE202C65C31D00C35C1D /* PendulumSwiftUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = FA4EEE1F2C65C31D00C35C1D /* PendulumSwiftUITests.swift */; };
+		FA4EEE2A2C65C31D00C35C1D /* PendulumSwiftUIUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = FA4EEE292C65C31D00C35C1D /* PendulumSwiftUIUITests.swift */; };
+		FA4EEE2C2C65C31D00C35C1D /* PendulumSwiftUIUITestsLaunchTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = FA4EEE2B2C65C31D00C35C1D /* PendulumSwiftUIUITestsLaunchTests.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		FA4EEE1C2C65C31D00C35C1D /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = FA4EEE032C65C31B00C35C1D /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = FA4EEE0A2C65C31B00C35C1D;
+			remoteInfo = PendulumSwiftUI;
+		};
+		FA4EEE262C65C31D00C35C1D /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = FA4EEE032C65C31B00C35C1D /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = FA4EEE0A2C65C31B00C35C1D;
+			remoteInfo = PendulumSwiftUI;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		FA4EEE0B2C65C31B00C35C1D /* PendulumSwiftUI.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = PendulumSwiftUI.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		FA4EEE0E2C65C31B00C35C1D /* PendulumSwiftUIApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PendulumSwiftUIApp.swift; sourceTree = "<group>"; };
+		FA4EEE102C65C31B00C35C1D /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
+		FA4EEE122C65C31D00C35C1D /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		FA4EEE152C65C31D00C35C1D /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
+		FA4EEE1B2C65C31D00C35C1D /* PendulumSwiftUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = PendulumSwiftUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		FA4EEE1F2C65C31D00C35C1D /* PendulumSwiftUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PendulumSwiftUITests.swift; sourceTree = "<group>"; };
+		FA4EEE252C65C31D00C35C1D /* PendulumSwiftUIUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = PendulumSwiftUIUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		FA4EEE292C65C31D00C35C1D /* PendulumSwiftUIUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PendulumSwiftUIUITests.swift; sourceTree = "<group>"; };
+		FA4EEE2B2C65C31D00C35C1D /* PendulumSwiftUIUITestsLaunchTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PendulumSwiftUIUITestsLaunchTests.swift; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		FA4EEE082C65C31B00C35C1D /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		FA4EEE182C65C31D00C35C1D /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		FA4EEE222C65C31D00C35C1D /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		FA4EEE022C65C31B00C35C1D = {
+			isa = PBXGroup;
+			children = (
+				FA4EEE0D2C65C31B00C35C1D /* PendulumSwiftUI */,
+				FA4EEE1E2C65C31D00C35C1D /* PendulumSwiftUITests */,
+				FA4EEE282C65C31D00C35C1D /* PendulumSwiftUIUITests */,
+				FA4EEE0C2C65C31B00C35C1D /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		FA4EEE0C2C65C31B00C35C1D /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				FA4EEE0B2C65C31B00C35C1D /* PendulumSwiftUI.app */,
+				FA4EEE1B2C65C31D00C35C1D /* PendulumSwiftUITests.xctest */,
+				FA4EEE252C65C31D00C35C1D /* PendulumSwiftUIUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		FA4EEE0D2C65C31B00C35C1D /* PendulumSwiftUI */ = {
+			isa = PBXGroup;
+			children = (
+				FA4EEE0E2C65C31B00C35C1D /* PendulumSwiftUIApp.swift */,
+				FA4EEE102C65C31B00C35C1D /* ContentView.swift */,
+				FA4EEE122C65C31D00C35C1D /* Assets.xcassets */,
+				FA4EEE142C65C31D00C35C1D /* Preview Content */,
+			);
+			path = PendulumSwiftUI;
+			sourceTree = "<group>";
+		};
+		FA4EEE142C65C31D00C35C1D /* Preview Content */ = {
+			isa = PBXGroup;
+			children = (
+				FA4EEE152C65C31D00C35C1D /* Preview Assets.xcassets */,
+			);
+			path = "Preview Content";
+			sourceTree = "<group>";
+		};
+		FA4EEE1E2C65C31D00C35C1D /* PendulumSwiftUITests */ = {
+			isa = PBXGroup;
+			children = (
+				FA4EEE1F2C65C31D00C35C1D /* PendulumSwiftUITests.swift */,
+			);
+			path = PendulumSwiftUITests;
+			sourceTree = "<group>";
+		};
+		FA4EEE282C65C31D00C35C1D /* PendulumSwiftUIUITests */ = {
+			isa = PBXGroup;
+			children = (
+				FA4EEE292C65C31D00C35C1D /* PendulumSwiftUIUITests.swift */,
+				FA4EEE2B2C65C31D00C35C1D /* PendulumSwiftUIUITestsLaunchTests.swift */,
+			);
+			path = PendulumSwiftUIUITests;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		FA4EEE0A2C65C31B00C35C1D /* PendulumSwiftUI */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = FA4EEE2F2C65C31D00C35C1D /* Build configuration list for PBXNativeTarget "PendulumSwiftUI" */;
+			buildPhases = (
+				FA4EEE072C65C31B00C35C1D /* Sources */,
+				FA4EEE082C65C31B00C35C1D /* Frameworks */,
+				FA4EEE092C65C31B00C35C1D /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = PendulumSwiftUI;
+			productName = PendulumSwiftUI;
+			productReference = FA4EEE0B2C65C31B00C35C1D /* PendulumSwiftUI.app */;
+			productType = "com.apple.product-type.application";
+		};
+		FA4EEE1A2C65C31D00C35C1D /* PendulumSwiftUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = FA4EEE322C65C31D00C35C1D /* Build configuration list for PBXNativeTarget "PendulumSwiftUITests" */;
+			buildPhases = (
+				FA4EEE172C65C31D00C35C1D /* Sources */,
+				FA4EEE182C65C31D00C35C1D /* Frameworks */,
+				FA4EEE192C65C31D00C35C1D /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				FA4EEE1D2C65C31D00C35C1D /* PBXTargetDependency */,
+			);
+			name = PendulumSwiftUITests;
+			productName = PendulumSwiftUITests;
+			productReference = FA4EEE1B2C65C31D00C35C1D /* PendulumSwiftUITests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		FA4EEE242C65C31D00C35C1D /* PendulumSwiftUIUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = FA4EEE352C65C31D00C35C1D /* Build configuration list for PBXNativeTarget "PendulumSwiftUIUITests" */;
+			buildPhases = (
+				FA4EEE212C65C31D00C35C1D /* Sources */,
+				FA4EEE222C65C31D00C35C1D /* Frameworks */,
+				FA4EEE232C65C31D00C35C1D /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				FA4EEE272C65C31D00C35C1D /* PBXTargetDependency */,
+			);
+			name = PendulumSwiftUIUITests;
+			productName = PendulumSwiftUIUITests;
+			productReference = FA4EEE252C65C31D00C35C1D /* PendulumSwiftUIUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		FA4EEE032C65C31B00C35C1D /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				BuildIndependentTargetsInParallel = 1;
+				LastSwiftUpdateCheck = 1520;
+				LastUpgradeCheck = 1520;
+				TargetAttributes = {
+					FA4EEE0A2C65C31B00C35C1D = {
+						CreatedOnToolsVersion = 15.2;
+					};
+					FA4EEE1A2C65C31D00C35C1D = {
+						CreatedOnToolsVersion = 15.2;
+						TestTargetID = FA4EEE0A2C65C31B00C35C1D;
+					};
+					FA4EEE242C65C31D00C35C1D = {
+						CreatedOnToolsVersion = 15.2;
+						TestTargetID = FA4EEE0A2C65C31B00C35C1D;
+					};
+				};
+			};
+			buildConfigurationList = FA4EEE062C65C31B00C35C1D /* Build configuration list for PBXProject "PendulumSwiftUI" */;
+			compatibilityVersion = "Xcode 14.0";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = FA4EEE022C65C31B00C35C1D;
+			productRefGroup = FA4EEE0C2C65C31B00C35C1D /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				FA4EEE0A2C65C31B00C35C1D /* PendulumSwiftUI */,
+				FA4EEE1A2C65C31D00C35C1D /* PendulumSwiftUITests */,
+				FA4EEE242C65C31D00C35C1D /* PendulumSwiftUIUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		FA4EEE092C65C31B00C35C1D /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				FA4EEE162C65C31D00C35C1D /* Preview Assets.xcassets in Resources */,
+				FA4EEE132C65C31D00C35C1D /* Assets.xcassets in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		FA4EEE192C65C31D00C35C1D /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		FA4EEE232C65C31D00C35C1D /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		FA4EEE072C65C31B00C35C1D /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				FA4EEE112C65C31B00C35C1D /* ContentView.swift in Sources */,
+				FA4EEE0F2C65C31B00C35C1D /* PendulumSwiftUIApp.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		FA4EEE172C65C31D00C35C1D /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				FA4EEE202C65C31D00C35C1D /* PendulumSwiftUITests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		FA4EEE212C65C31D00C35C1D /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				FA4EEE2C2C65C31D00C35C1D /* PendulumSwiftUIUITestsLaunchTests.swift in Sources */,
+				FA4EEE2A2C65C31D00C35C1D /* PendulumSwiftUIUITests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		FA4EEE1D2C65C31D00C35C1D /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = FA4EEE0A2C65C31B00C35C1D /* PendulumSwiftUI */;
+			targetProxy = FA4EEE1C2C65C31D00C35C1D /* PBXContainerItemProxy */;
+		};
+		FA4EEE272C65C31D00C35C1D /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = FA4EEE0A2C65C31B00C35C1D /* PendulumSwiftUI */;
+			targetProxy = FA4EEE262C65C31D00C35C1D /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin XCBuildConfiguration section */
+		FA4EEE2D2C65C31D00C35C1D /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ASSETCATALOG_COMPILER_GENERATE_SWIFT_ASSET_SYMBOL_EXTENSIONS = YES;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				ENABLE_USER_SCRIPT_SANDBOXING = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu17;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 17.2;
+				LOCALIZATION_PREFERS_STRING_CATALOGS = YES;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "DEBUG $(inherited)";
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		FA4EEE2E2C65C31D00C35C1D /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ASSETCATALOG_COMPILER_GENERATE_SWIFT_ASSET_SYMBOL_EXTENSIONS = YES;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_USER_SCRIPT_SANDBOXING = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu17;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 17.2;
+				LOCALIZATION_PREFERS_STRING_CATALOGS = YES;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		FA4EEE302C65C31D00C35C1D /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_ASSET_PATHS = "\"PendulumSwiftUI/Preview Content\"";
+				DEVELOPMENT_TEAM = 56ZBSRTSDR;
+				ENABLE_PREVIEWS = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.theappwizard.PendulumSwiftUI;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		FA4EEE312C65C31D00C35C1D /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_ASSET_PATHS = "\"PendulumSwiftUI/Preview Content\"";
+				DEVELOPMENT_TEAM = 56ZBSRTSDR;
+				ENABLE_PREVIEWS = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.theappwizard.PendulumSwiftUI;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+		FA4EEE332C65C31D00C35C1D /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = 56ZBSRTSDR;
+				GENERATE_INFOPLIST_FILE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 17.2;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.theappwizard.PendulumSwiftUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/PendulumSwiftUI.app/$(BUNDLE_EXECUTABLE_FOLDER_PATH)/PendulumSwiftUI";
+			};
+			name = Debug;
+		};
+		FA4EEE342C65C31D00C35C1D /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = 56ZBSRTSDR;
+				GENERATE_INFOPLIST_FILE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 17.2;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.theappwizard.PendulumSwiftUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/PendulumSwiftUI.app/$(BUNDLE_EXECUTABLE_FOLDER_PATH)/PendulumSwiftUI";
+			};
+			name = Release;
+		};
+		FA4EEE362C65C31D00C35C1D /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = 56ZBSRTSDR;
+				GENERATE_INFOPLIST_FILE = YES;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.theappwizard.PendulumSwiftUIUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = PendulumSwiftUI;
+			};
+			name = Debug;
+		};
+		FA4EEE372C65C31D00C35C1D /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = 56ZBSRTSDR;
+				GENERATE_INFOPLIST_FILE = YES;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.theappwizard.PendulumSwiftUIUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = PendulumSwiftUI;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		FA4EEE062C65C31B00C35C1D /* Build configuration list for PBXProject "PendulumSwiftUI" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				FA4EEE2D2C65C31D00C35C1D /* Debug */,
+				FA4EEE2E2C65C31D00C35C1D /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		FA4EEE2F2C65C31D00C35C1D /* Build configuration list for PBXNativeTarget "PendulumSwiftUI" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				FA4EEE302C65C31D00C35C1D /* Debug */,
+				FA4EEE312C65C31D00C35C1D /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		FA4EEE322C65C31D00C35C1D /* Build configuration list for PBXNativeTarget "PendulumSwiftUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				FA4EEE332C65C31D00C35C1D /* Debug */,
+				FA4EEE342C65C31D00C35C1D /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		FA4EEE352C65C31D00C35C1D /* Build configuration list for PBXNativeTarget "PendulumSwiftUIUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				FA4EEE362C65C31D00C35C1D /* Debug */,
+				FA4EEE372C65C31D00C35C1D /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = FA4EEE032C65C31B00C35C1D /* Project object */;
+}
